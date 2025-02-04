@@ -9,6 +9,7 @@ h1 {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    border: 5px solid #e5e5e5;
 }
 
 h2,
@@ -32,19 +33,45 @@ p {
 }
 
 img {
-    width: 300px;
-    height: 300px;
-    display: block;
+    width: 400px;
+    height: 400px;
 }
 
-.subtitle {
+.container {
     background-color: #FCA311;
-    color: #0a0a0a;
-    font-size: 24px;
-    font-weight: 800;
-    font-family: 'Times New Roman', Times, serif;
-    float: none;
+    text-align: center;
+    border: 5px solid #e5e5e5;
+    margin: 10px 30px;
 }
+
+.lasag,
+.taco,
+.burger {
+    width: 100px;
+    padding: 5px;
+    margin: 0 200px;
+
+    display: inline-block;
+}
+
+.img-cont {
+    background-color: #313f5c;
+    align-items: center;
+    float: left;
+    padding: 30px;
+    margin: 5px 50px 0 55px;
+
+}
+
+.img-list {
+
+    float: left;
+    padding: 25px;
+    margin: 0 50px;
+
+}
+
+/* RECIPE TABS */
 
 .img-recipe {
     width: 680px;
